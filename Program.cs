@@ -25,30 +25,30 @@ namespace Conditional_Statements
                 decimal grades = decimal.Parse(input);
 
                 if (grades >= 90 & grades <= 100) 
-                {
+                
                     Console.WriteLine("Your expected grade is an A.");
                     
-                }
+                
                 else if (grades >= 80 & grades < 90)
-                {
+                
                     Console.WriteLine("Your expected grade is a B.");
-                }
+                
                 else if (grades >= 70 & grades < 80)
-                {
+                
                     Console.WriteLine("Your expected grade is a C.");
-                }
+                
                 else if (grades >= 60 & grades < 70)
-                {
+                
                     Console.WriteLine("Your expected grade is a D.");
-                }
+                
                 else if (grades <= 50)
-                {
+                
                     Console.WriteLine("Your expected grade is a F.");
-                }
+                
                 else
                 { 
                 }
-               // bruh
+               
                 
             }
             catch
